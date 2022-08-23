@@ -1,0 +1,35 @@
+.divHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.divTxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divTxt h2 {
+    top: 420px;
+    left: 290px;
+    width: 332px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+
+.divTxt h5 {
+    top: 473px;
+    left: 290px;
+    width: 520px;
+    height: 220px;
+    text-align: left;
+    font: normal normal normal 12px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}

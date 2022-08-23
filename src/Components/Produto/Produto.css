@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.nome {
+    font-size: 14px;
+    font-style: Helvetica Neue;
+    color: #888888;
+    opacity: 1;
+}
+
+.descricao {
+    font-size: 12px;
+    font-style: Helvetica Neue;
+    color: #888888;
+    opacity: 1;
+}
+
+.preco1 {
+    font-size: 12px;
+    font-style: Helvetica Neue;
+    color: #888888;
+    opacity: 1;
+}
+
+.preco2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: Helvetica Neue;
+    color: #888888;
+    opacity: 1;
+}
+
+.valParc {
+    font-size: 12px;
+    font-style: Helvetica Neue;
+    color: #888888;
+    opacity: 1;
+}
+
+.btnComprar {
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    text-align: center;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+}
