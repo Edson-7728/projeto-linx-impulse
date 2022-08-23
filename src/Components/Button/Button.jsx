@@ -4,10 +4,10 @@ import './Button.css'
 const Button = () => {
   return (
     <div className='botoes'>
-      <button>Conheça a Linx</button>
-      <button>Ajude o algorítimo</button>
-      <button>Seus produtos</button>
-      <button>Compartilhe</button>
+      <button className='botao'>Conheça a Linx</button>
+      <button className='botao'>Ajude o algorítimo</button>
+      <button className='botao'>Seus produtos</button>
+      <button className='botao'>Compartilhe</button>
     </div>
 
   )
