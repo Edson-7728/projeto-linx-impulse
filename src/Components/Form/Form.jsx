@@ -11,12 +11,14 @@ const Form = () => {
                 <input type="email" />
                 <label>CPF:</label>
                 <input type="text" />
-                <input type="radio" name="mf" />
-                <label>Masculino</label>
-                <input type="radio" name="mf" />
-                <label>Feminino</label>
+                <div className='divRadio'>
+                    <input type="radio" name="mf" />
+                    <label>Masculino</label>
+                    <input type="radio" name="mf" />
+                    <label>Feminino</label>
+                </div>
             </section>
-            <button>Enviar</button>
+            <button className='btn'>Enviar</button>
         </div>
     )
 }
