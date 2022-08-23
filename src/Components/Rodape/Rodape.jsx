@@ -4,7 +4,12 @@ import './Rodape.css'
 const Rodape = () => {
   return (
     <div className='divRodape'>
-      <h5>Testando suas habilidades em HTML, CSS e JS. Linx Impulse 2019</h5>
+      <div className='divCxT'>
+        <h5>Testando suas habilidades em HTML, CSS e JS.</h5>
+        <h5>Linx Impulse</h5>
+        <h5>2019</h5>
+      </div>
+
     </div>
   )
 }
